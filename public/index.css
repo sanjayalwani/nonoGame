@@ -12,13 +12,13 @@ table{
     width: 90%;
     height: auto;
     margin: auto;
-    padding: 0px;
+    padding: 10px;
     border-collapse: initial;
     -webkit-border-horizontal-spacing: 0px;
     -webkit-border-vertical-spacing: 0px;
     border-spacing: 0px;
     position: relative;
-    right: 50px;
+    right: 75px;
 }
 tr{
     margin: 0px;
@@ -43,11 +43,11 @@ td.active{
 
 .column-header{
     width: 30px;
-    height: 100px;
+    height: auto;
     }
     .column-header-list{
         width: 30px;
-        height: 100px;
+        height: auto;
         margin: 0px;
         padding: 0px;
         display: flex;
@@ -56,11 +56,11 @@ td.active{
     }
 
 .row-header{
-    width: 100px;
+    width: 150px;
     height: 30px;
     }
     .row-header-list{
-        width: 100px;
+        width: 150px;
         height: 30px;
         margin: 0px;
         padding: 0px;
