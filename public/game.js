@@ -73,13 +73,14 @@ const puzzles = [
         ]
     },
     {
-        "name": "Which Course is this for?",
-        "width": "21", "height": "13",
-        "solutionSet": {
-            "columns": [[6, 1, 3], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 3, 1], [], [6, 1], [1, 1, 3], [2, 1, 2], [1, 3], [6, 2], [], [6, 6], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [3, 1, 1, 1], [1, 4], [1], [1], [6, 4, 1], [1, 4, 1], [1]], 
-            "rows": [[4, 2, 2, 4, 5], [2, 6, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 4], [4, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 4, 1], [4, 1, 1, 1, 1], [1], [4], [4, 5, 5], [1, 5, 2, 1, 1]]
-        }, 
-        "solutionArray": [1, 1, 1, 1, null, 1, 1, 0, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, 1, null, null, null, null, 1, 0, 1, 0, 1, null, 1, null, null, 1, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, 1, null, 1, null, 1, 1, 1, 1, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, 1, 1, 1, 1, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, null, null, 1, 1, null, null, null, null, 1, null, null, null, null, 1, 1, null, 1, null, null, null, null, null, null, 1, 1, null, 0, 1, 1, 1, null, null, null, 1, 1, null, null, 1, 1, 1, 1, 1, null, null, 1, 1, null, 1, 0, 0, 0, null, null, 1, 1, null, null, null, 1, 0, 0, 0, 1, null, null, 1, 1, null, 1, null, null, null, null, null, 1, null, null, null, null, 1, null, null, 0, 1, null, null, null, null, null, 1, 1, 1, 1, null, null, 1, null, null, null, null, 1, 1, 1, 1, 1, null, null, 1, 1, null]
+        "name":"Which course is this for?",
+        "width":"21",
+        "height":"13",
+        "solutionSet":{
+            "columns":[[6,1,3],[1,1,1,1,1],[1,1,1,1,1],[1,1,4,1],[],[6,1],[1,1],[2,1,3],[1,1,1],[6,2],[],[6,6],[1,1,1,1,1],[1,1,1,1,1],[2,1,3],[],[1,4,1],[1],[6,4,1],[1],[1,4,1]],
+            "rows":[[4,2,2,4,5],[1,1,1,1,1,1,1],[1,1,1,1,3,1],[1,1,1,1,1],[1,1,1,1,1],[4,1,1,1,1],[],[4,5,4,1,1,1],[1,1,1,1,1,1],[1,1,1,1,1,1],[4,1,4,1,1,1],[1,1,1,1],[4,1,4,1,1,1]]
+        },
+        "solutionArray":[1,1,1,1,null,1,1,0,1,1,null,1,1,1,1,null,1,1,1,1,1,1,null,null,null,null,1,null,1,null,1,0,1,null,null,1,null,null,null,1,null,null,1,null,null,null,null,1,null,1,null,1,0,1,1,1,0,null,null,null,1,null,null,1,null,null,null,null,1,null,null,null,1,0,1,null,0,0,null,null,null,1,null,null,1,null,null,null,null,1,null,null,null,1,null,1,null,null,null,null,null,null,1,null,null,1,1,1,1,null,1,null,null,null,1,null,1,null,null,null,null,null,null,1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1,1,1,1,null,1,1,1,1,1,null,1,1,1,1,null,1,null,1,null,1,null,null,null,1,null,null,null,null,0,1,null,1,null,null,null,null,1,null,1,null,1,null,null,null,1,null,null,null,0,1,0,null,1,null,null,null,null,1,null,1,null,1,1,1,1,1,null,null,0,1,0,null,null,1,1,1,1,null,1,null,1,null,1,1,null,null,null,null,null,0,1,null,null,null,1,null,0,1,null,0,null,null,null,null,1,1,1,1,null,null,0,1,null,null,null,1,1,1,1,null,1,null,1,null,1]
     }
 ]
 class gameCanvas {
@@ -140,6 +141,7 @@ class gameCanvas {
                 tableCell.onmousedown = (e) => {
                     e.preventDefault();
                     this.drawState.drawing = true;
+                    //If drawing on a blank cell make it active, if drawing on active erase it
                     this.drawState.fillMode = tableCell.classList.contains("active") ? false : true;
                     this.drawState.drawOrigin = tableCell.id;
                     this.drawState.drawOriginActive = tableCell.classList.contains("active");
@@ -157,14 +159,7 @@ class gameCanvas {
                     }
                 }
                 tableCell.onmouseup = (e) => {
-                    /*if(this.drawState.drawOrigin==tableCell.id){
-                        if(this.drawState.drawOriginActive&&tableCell.classList.contains("active")){
-                            this.makeActive(tableCell, false);
-                        }
-                        if(!this.drawState.drawOriginActive&&!tableCell.classList.contains("active")){
-                            this.makeActive(tableCell, true);
-                        }
-                    }*/
+                    //Stop drawing when click is released and check against solution
                     this.drawState.drawing = false;
                     if (this.checkAgainstSolution()) {
                         alert("CONGRATULATIONS YOU CRACKED IT");
@@ -254,7 +249,7 @@ class gameCanvas {
             let currentCount = 0;
             //Evaluate each row pushing counts greater than 0 to specific row array
             for (let j = 0; j < this.width; j++) {
-                if (this.matrix[(i * this.height) + j] == 1) {
+                if (this.matrix[(i * this.width) + j] == 1) {
                     currentCount++;
                 } else {
                     if (currentCount > 0) {
