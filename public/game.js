@@ -50,31 +50,40 @@ const puzzles = [
             ]
         },
         "solutionArray": [
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
-            1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,
-            0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0,
+            0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,
         ]
+    },
+    {
+        "name": "Which Course is this for?",
+        "width": "21", "height": "13",
+        "solutionSet": {
+            "columns": [[6, 1, 3], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 3, 1], [], [6, 1], [1, 1, 3], [2, 1, 2], [1, 3], [6, 2], [], [6, 6], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [3, 1, 1, 1], [1, 4], [1], [1], [6, 4, 1], [1, 4, 1], [1]], 
+            "rows": [[4, 2, 2, 4, 5], [2, 6, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 4], [4, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 4, 1], [4, 1, 1, 1, 1], [1], [4], [4, 5, 5], [1, 5, 2, 1, 1]]
+        }, 
+        "solutionArray": [1, 1, 1, 1, null, 1, 1, 0, 1, 1, null, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, 1, null, null, null, null, 1, 0, 1, 0, 1, null, 1, null, null, 1, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, 1, null, 1, null, 1, 1, 1, 1, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, 1, null, null, null, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, 1, 1, 1, 1, null, 1, null, null, null, 1, null, 1, null, null, null, null, null, null, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, null, 1, 1, 1, 1, 1, null, null, 1, 1, null, null, null, null, 1, null, null, null, null, 1, 1, null, 1, null, null, null, null, null, null, 1, 1, null, 0, 1, 1, 1, null, null, null, 1, 1, null, null, 1, 1, 1, 1, 1, null, null, 1, 1, null, 1, 0, 0, 0, null, null, 1, 1, null, null, null, 1, 0, 0, 0, 1, null, null, 1, 1, null, 1, null, null, null, null, null, 1, null, null, null, null, 1, null, null, 0, 1, null, null, null, null, null, 1, 1, 1, 1, null, null, 1, null, null, null, null, 1, 1, 1, 1, 1, null, null, 1, 1, null]
     }
 ]
 class gameCanvas {
-    constructor( puzzleObject ) {
+    constructor(puzzleObject) {
         this.width = puzzleObject.width;
         this.height = puzzleObject.height;
         this.size = this.width * this.height;
@@ -131,21 +140,18 @@ class gameCanvas {
                 tableCell.onmousedown = (e) => {
                     e.preventDefault();
                     this.drawState.drawing = true;
-                    this.drawState.fillMode = tableCell.classList.contains("active")? false: true;
+                    this.drawState.fillMode = tableCell.classList.contains("active") ? false : true;
                     this.drawState.drawOrigin = tableCell.id;
                     this.drawState.drawOriginActive = tableCell.classList.contains("active");
-                    (() => {
-                        this.makeActive(tableCell, this.drawState.fillMode);
-                        console.log("First one changed")
-                    })();
+                    this.makeActive(tableCell, this.drawState.fillMode);
                 }
                 tableCell.onmousemove = (e) => {
                     e.preventDefault();
-                    if(this.drawState.drawing && this.drawState.drawOrigin!=tableCell.id){
-                        if(this.drawState.fillMode && !tableCell.classList.contains("active")){
+                    if (this.drawState.drawing && this.drawState.drawOrigin != tableCell.id) {
+                        if (this.drawState.fillMode && !tableCell.classList.contains("active")) {
                             this.makeActive(tableCell, true);
                         }
-                        if(!this.drawState.fillMode && tableCell.classList.contains("active")){
+                        if (!this.drawState.fillMode && tableCell.classList.contains("active")) {
                             this.makeActive(tableCell, false);
                         }
                     }
@@ -213,7 +219,7 @@ class gameCanvas {
 
     //Returns solution object by evaluating matrix array
     extractSolution() {
-        if(!this.solution.hasOwnProperty("rows")){
+        if (!this.solution.hasOwnProperty("rows")) {
             return null;
         }
         //Get column vector counts
@@ -311,8 +317,7 @@ class gameCanvas {
     }
     //Dynamically compares  matrix to solution set, as there are no guaranteed unique solutions
     checkAgainstSolution() {
-        if(!this.solution.hasOwnProperty("rows")){
-            console.log(this.solution);
+        if (!this.solution.hasOwnProperty("rows")) {
             return false;
         }
         let currentState = this.extractSolution();
@@ -354,7 +359,7 @@ class gameCanvas {
 
         return match;
     }
-    giveUp(){
+    giveUp() {
         this.matrix = [...this.topSecret];
         this.reRender();
     }
@@ -364,7 +369,7 @@ class gameCanvas {
 const renderPuzzleList = () => {
     let puzzleList = document.getElementById("puzzle-list");
     puzzleList.innerHTML = "";
-    puzzles.map( obj => {
+    puzzles.map(obj => {
         let listItem = document.createElement("li");
         listItem.classList.add("puzzle-object");
         listItem.innerText = obj.name;
@@ -374,10 +379,10 @@ const renderPuzzleList = () => {
             document.getElementById("giveup-button").removeAttribute("disabled");
             document.getElementById("reset-button").onclick = () => puzzleCanvas.resetCanvas();
             document.getElementById("giveup-button").onclick = () => puzzleCanvas.giveUp();
-            if(document.getElementById("generation-span")){
+            if (document.getElementById("generation-span")) {
                 document.getElementById("game-buttons").removeChild(document.getElementById("generation-span"));
             }
-            
+
         };
         puzzleList.appendChild(listItem);
     });
@@ -394,8 +399,8 @@ const renderPuzzleList = () => {
     ycoord.id = "y-coord";
     xcoord.classList.add("coord-input");
     ycoord.classList.add("coord-input");
-    xcoord.setAttribute("type","number");
-    ycoord.setAttribute("type","number");
+    xcoord.setAttribute("type", "number");
+    ycoord.setAttribute("type", "number");
     xcoord.setAttribute("value", 10);
     ycoord.setAttribute("value", 10);
     xcoord.setAttribute("max", 40);
@@ -429,7 +434,7 @@ const renderPuzzleList = () => {
         const newPuzzleCanvas = new gameCanvas(puzzleObject);
         newPuzzleCanvas.drawTable("draw-table");
         document.getElementById("reset-button").onclick = () => newPuzzleCanvas.resetCanvas();
-        document.getElementById("giveup-button").setAttribute("disabled",true);
+        document.getElementById("giveup-button").setAttribute("disabled", true);
         //Overwrite function in creation mode
         newPuzzleCanvas.checkAgainstSolution = () => false;
 
@@ -453,15 +458,15 @@ const renderPuzzleList = () => {
             puzzleName.setAttribute("value", `Puzzle #${puzzles.length}`);
         }
         generateButton.innerText = "Create";
-        
+
         let newPuzzleWrapper = document.createElement("span");
         newPuzzleWrapper.appendChild(puzzleName)
         newPuzzleWrapper.appendChild(generateButton);
         newPuzzleWrapper.id = "generation-span";
-        
+
         let existingWrapper = document.getElementById("generation-span");
         let gameButtons = document.getElementById("game-buttons");
-        if ( existingWrapper ){
+        if (existingWrapper) {
             gameButtons.removeChild(existingWrapper);
         }
         gameButtons.appendChild(newPuzzleWrapper);
@@ -470,7 +475,7 @@ const renderPuzzleList = () => {
 
     createNewPuzzle.appendChild(newPuzzleButton);
 
-    
+
 
     puzzleList.appendChild(createNewPuzzle);
 }
